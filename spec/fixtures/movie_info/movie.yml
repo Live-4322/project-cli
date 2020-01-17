@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://imdb.com/title/tt2006295/
+    uri: http://imdb.com/movies-in-theaters
     body:
       encoding: US-ASCII
       string: ''
@@ -18,11 +18,11 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Sun, 15 Nov 2015 18:48:27 GMT
+      - Wed, 15 Jan 2020 18:48:27 GMT
       Server:
       - Server
       Location:
-      - http://www.imdb.com/title/tt2006295/
+      - http://imdb.com/movies-in-theaters
       Content-Length:
       - '244'
       Nncoection:
@@ -37,13 +37,13 @@ http_interactions:
         <title>301 Moved Permanently</title>
         </head><body>
         <h1>Moved Permanently</h1>
-        <p>The document has moved <a href="http://www.imdb.com/title/tt2006295/">here</a>.</p>
+        <p>The document has moved <a href="http://imdb.com/movies-in-theaters/">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 15 Nov 2015 18:48:27 GMT
+  recorded_at: Wed, 15 Jan 2020 18:48:27 GMT
 - request:
     method: get
-    uri: http://www.imdb.com/title/tt2006295/
+    uri: http://imdb.com/movies-in-theaters
     body:
       encoding: US-ASCII
       string: ''
@@ -60,7 +60,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Nov 2015 18:48:27 GMT
+      - Wed, 15 Jan 2020 18:48:27 GMT
       Server:
       - Server
       X-Frame-Options:
@@ -4607,5 +4607,5 @@ http_interactions:
         PT0gJ2Z1bmN0aW9uJykgewogICAgICB1ZXQoImJlIik7CiAgICB9Cjwvc2Ny
         aXB0PgoKICAgIDwvYm9keT4KPC9odG1sPgoK
     http_version: 
-  recorded_at: Sun, 15 Nov 2015 18:48:27 GMT
+  recorded_at: Wed, 15 Jan 2020 18:48:27 GMT
 recorded_with: VCR 3.0.0
