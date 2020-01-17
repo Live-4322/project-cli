@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://imdb.com/title/tt2006295/plotsummary
+    uri: https://www.imdb.com/feature/genre/?ref_=nv_ch_gr
     body:
       encoding: US-ASCII
       string: ''
@@ -18,11 +18,11 @@ http_interactions:
       message: Moved Permanently
     headers:
       Date:
-      - Sun, 15 Nov 2015 18:50:28 GMT
+      - Wed, 15 Jan 2020 18:48:28 GMT
       Server:
       - Server
       Location:
-      - http://www.imdb.com/title/tt2006295/plotsummary
+      - https://www.imdb.com/feature/genre/?ref_=nv_ch_gr
       Content-Length:
       - '255'
       Cneonction:
@@ -40,10 +40,10 @@ http_interactions:
         <p>The document has moved <a href="http://www.imdb.com/title/tt2006295/plotsummary">here</a>.</p>
         </body></html>
     http_version: 
-  recorded_at: Sun, 15 Nov 2015 18:50:27 GMT
+  recorded_at: Wed, 15 Jan 2020 18:48:27 GMT
 - request:
     method: get
-    uri: http://www.imdb.com/title/tt2006295/plotsummary
+    uri: https://www.imdb.com/feature/genre/?ref_=nv_ch_gr
     body:
       encoding: US-ASCII
       string: ''
@@ -60,7 +60,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Nov 2015 18:50:27 GMT
+      - Wed, 15 Jan 2020 18:48:27 GMT
       Server:
       - Server
       X-Frame-Options:
@@ -1289,5 +1289,5 @@ http_interactions:
         IHVldCA9PSAnZnVuY3Rpb24nKSB7CiAgICAgIHVldCgiYmUiKTsKICAgIH0K
         PC9zY3JpcHQ+CgogICAgPC9ib2R5Pgo8L2h0bWw+Cg==
     http_version: 
-  recorded_at: Sun, 15 Nov 2015 18:50:28 GMT
+  recorded_at: Wed, 15 Jan 2020 18:48:28 GMT
 recorded_with: VCR 3.0.0
