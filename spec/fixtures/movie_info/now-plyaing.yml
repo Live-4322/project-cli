@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.imdb.com/movies-in-theaters/
+    uri: https://www.imdb.com/showtimes/location?ref_=inth_sh
     body:
       encoding: US-ASCII
       string: ''
@@ -18,7 +18,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 15 Nov 2015 18:18:21 GMT
+      - Wed, 15 Jan 2020 18:48:21 GMT
       Server:
       - Server
       X-Frame-Options:
@@ -4109,5 +4109,5 @@ http_interactions:
         bicpIHsKICAgICAgdWV0KCJiZSIpOwogICAgfQo8L3NjcmlwdD4KCiAgICA8
         L2JvZHk+CjwvaHRtbD4K
     http_version: 
-  recorded_at: Sun, 15 Nov 2015 18:18:21 GMT
+  recorded_at: Wed, 15 Jan 2020 18:48:21 GMT
 recorded_with: VCR 3.0.0
